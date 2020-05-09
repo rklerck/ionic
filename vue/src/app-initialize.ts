@@ -4,7 +4,8 @@ import { IonicConfig } from '@ionic/core';
 
 // Webpack import for ionicons
 import { addIcons } from 'ionicons';
-import { arrowBack, arrowDown, arrowForward, close, closeCircle, menu, reorder, search } from 'ionicons/icons';
+//import { arrowBack, arrowDown, arrowForward, close, closeCircle, menu, reorder, search } from 'ionicons/icons';
+import { arrowBack, arrowDown, arrowForward, close, closeCircle, menu, search } from 'ionicons/icons';
 
 // import '@ionic/core/css/ionic.bundle.css';
 // import 'ionicons/dist/collection/icon/icon.css';
@@ -23,8 +24,8 @@ export function appInitialize(config?: IonicConfig) {
   addIcons({
     'ios-close': close.ios,
     'md-close': close.md,
-    'ios-reorder': reorder.ios,
-    'md-reorder': reorder.md,
+    //'ios-reorder': reorder.ios,
+    //'md-reorder': reorder.md,
     'ios-menu': menu.ios,
     'md-menu': menu.md,
     'ios-arrow-forward': arrowForward.ios,
